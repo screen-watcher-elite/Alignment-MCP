@@ -138,4 +138,4 @@ No refactoring needed — the server indexes it automatically on startup.
 
 ## License
 
-MIT
+Apache 2.0 — see [LICENSE](LICENSE) for details.

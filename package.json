@@ -24,7 +24,7 @@
     "ethical-ai"
   ],
   "author": "Ashutosh <screen-watcher-elite>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.6.0",
     "zod": "^3.24.2"
