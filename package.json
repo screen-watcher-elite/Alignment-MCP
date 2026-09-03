@@ -1,0 +1,39 @@
+{
+  "name": "alignment-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for AI Alignment, Safety, and Ethical Deep Learning research.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "alignment-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "ai-safety",
+    "ai-alignment",
+    "arxiv",
+    "ethical-ai"
+  ],
+  "author": "Ashutosh <screen-watcher-elite>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
