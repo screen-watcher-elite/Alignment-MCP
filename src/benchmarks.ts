@@ -144,7 +144,7 @@ export const BENCHMARK_REGISTRY: BenchmarkEntry[] = [
       'Capability retention — ensuring unlearning doesn\'t degrade benign performance',
     ],
     notableFindings: [
-      'Frontier models (GPT-4, Claude 3) score significantly above random chance on WMDP, indicating real uplift risk',
+      'Frontier models score significantly above random chance on WMDP, indicating real uplift risk',
       'Simple fine-tuning-based unlearning reduces WMDP scores but degrades general capabilities significantly',
       'Representation engineering (RMU — Representation Misdirection for Unlearning) achieves better targeted unlearning',
       'WMDP-Bio is the most concerning subdomain — models often provide dual-use biology knowledge',
